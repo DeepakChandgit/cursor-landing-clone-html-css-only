@@ -436,9 +436,79 @@ section {
 }
 .joinUsSectionLeft a {
   color: var(--primary-color);
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 .joinUsSectionRight img {
   width: 100%;
   border-radius: 0.5rem;
+}
+
+.blogSection {
+  width: 100%;
+  background-color: rgba(27, 25, 19, 0.615);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  padding: 1rem;
+}
+
+.blogSectionHeading {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: var(--white-color);
+  font-family: sans-serif;
+  font-weight: normal;
+  padding: 1rem;
+}
+
+.blogSectionCardsContainer {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.blogSectionCards {
+  padding: 1rem;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.blogCardTitle {
+  font-size: 1rem;
+}
+.blogCardDescription {
+  color: #c4c1c19b;
+  font-size: 0.9rem;
+  margin-top: 1px;
+}
+.blogCardDate {
+  color: #c4c1c19b;
+  margin-top: 1rem;
+}
+.tryNowSection div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tryNowSectionHeading {
+  color: var(--white-color);
+  font-size: 4rem;
+}
+.tryNowSectionBtn {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  padding: 0.8rem 1.3rem;
+  border: none;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+.tryNowSectionBtn span {
+  margin-bottom: 41px;
+  margin-bottom: 1px;
+}
+.tryNowSectionBtn img {
+  height: 1.3rem;
 }
