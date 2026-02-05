@@ -220,21 +220,21 @@ section {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-  width: 30%;
+  width: 40%;
 }
 
 .thirdSectionLeft p span,
 .fourthSectionRight p span,
 .fifthSectionLeft p span {
   color: var(--white-color);
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 .thirdSectionLeft p,
 .fourthSectionRight p,
 .fifthSectionLeft p {
   color: var(--text-dim);
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 .thirdSectionLeft > span,
