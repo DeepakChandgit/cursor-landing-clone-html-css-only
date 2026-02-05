@@ -26,13 +26,16 @@ body {
 }
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
   display: flex;
-  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
-  position: relative;
   height: 52px;
   padding: 0 19px;
+  background-color: var(--black-color);
   color: rgb(237, 236, 236);
 }
 .navLogo {
@@ -51,15 +54,18 @@ header {
 .navbar {
   position: absolute;
   left: 37.5%;
+  top: 26%;
 }
 .navigationMenu {
   display: flex;
-  gap: 29px;
+  gap: 35px;
 }
 .navLinks {
-  letter-spacing: normal;
+  color: var(--white-color);
+  font-family: sans-serif;
   font-size: 14px;
-  padding: 6.2px 0;
+  letter-spacing: normal;
+  padding: 6px 0;
 }
 .navActionBtn {
   display: flex;
@@ -304,7 +310,7 @@ section {
   border-radius: 4px;
 }
 
-.testimonialSection{
+.testimonialSection {
   width: 100%;
 }
 
@@ -329,7 +335,6 @@ section {
   gap: 4.5rem;
 }
 
-
 .testimonialImage {
   width: 2.5rem;
   height: 2.5rem;
@@ -344,4 +349,96 @@ section {
 .testimonialCardDetails div p:last-child {
   color: #fffffc85;
   margin-top: 2px;
+}
+
+.frontierSection {
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.frontierSection h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--white-color);
+  margin-bottom: 1rem;
+}
+.frontierSectionCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.frontierSectionCards {
+  display: grid;
+  gap: 1rem;
+}
+.frontierSectionCardsDetails span {
+  color: var(--white-color);
+}
+.frontierSectionCardsDetails {
+  display: flex;
+  flex-direction: column;
+  color: #fffffc85;
+}
+.frontierSectionCards div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.frontierSectionCards a {
+  color: var(--primary-color);
+}
+.frontierSectionCards img {
+  border-radius: 4px;
+  width: 100%;
+}
+.changeLogSection {
+  font-family: sans-serif;
+}
+.changeLogSection h2 {
+  font-size: 1.7rem;
+  font-weight: 200;
+  color: var(--white-color);
+  margin-bottom: 1rem;
+}
+
+.changeLogSectionCardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+.changeLogSectionCard {
+  padding: 1.5rem;
+}
+.changeLogSectionCard > p:first-child {
+  color: #bebbbbda;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+.changeLogSectionCard p span {
+  border: 1px solid rgba(207, 206, 206, 0.752);
+  padding: 0 8px;
+  margin-right: 4px;
+  border-radius: 16px;
+}
+
+.changeLogSection > p {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.joinUsSection {
+  display: flex;
+  gap: 2rem;
+}
+.joinUsSectionLeft {
+  display: grid;
+  place-content: center;
+  font-size: 1.4rem;
+}
+.joinUsSectionLeft a {
+  color: var(--primary-color);
+  margin-top: .5rem;
+}
+.joinUsSectionRight img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
