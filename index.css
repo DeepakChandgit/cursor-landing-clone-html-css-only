@@ -108,15 +108,26 @@ header {
   font-size: 16px;
   background-color: var(--white-color);
 }
-
+p {
+  color: var(--white-color);
+}
+section {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 6.25rem;
+}
+.containerBackground {
+  background-color: rgba(27, 25, 19, 0.615);
+  border: 1px solid rgba(255, 252, 252, 0.052);
+  border-radius: 4px;
+  padding: 16px;
+}
 .heroActionBtnIcon {
   width: 18px;
   margin-left: 2px;
   padding-top: 1px;
 }
 .heroSecondContainer {
-  position: relative;
-  margin: 0 auto;
   height: 680px;
   overflow: hidden;
   border-radius: 5px;
@@ -125,8 +136,8 @@ header {
   margin-bottom: 65px;
 }
 .heroSecondContainer .backgroundImage {
-  position: absolute;
   width: 100%;
+  object-fit: contain;
 }
 
 .trustedSection {
@@ -134,7 +145,6 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  margin-bottom: 100px;
 }
 .trustedParagraph {
   color: var(--white-color);
@@ -154,9 +164,6 @@ header {
 }
 .trustedCardsContainer {
   display: grid;
-
-  width: 97%;
-  margin: 0 auto;
   grid-template-columns: repeat(8, 1fr);
   gap: 16px;
 }
@@ -172,4 +179,169 @@ header {
   width: 70%;
   height: 50%;
   margin: auto;
+}
+
+.thirdSectionContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.thirdSectionLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 18px;
+}
+.thirdSectionLeft p {
+  color: #fffffc85;
+}
+.thirdSectionLeft p span {
+  color: var(--white-color);
+}
+.thirdSectionLeft > span {
+  margin-top: 16px;
+  color: var(--primary-color);
+}
+.thirdSectionRight {
+  overflow: hidden;
+}
+.thirdSectionRight img {
+  object-fit: contain;
+  max-height: 540px;
+  border-radius: 4px;
+}
+
+.fourthSectionContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourthSectionLeft img {
+  object-fit: contain;
+  max-height: 540px;
+  border-radius: 4px;
+}
+.fourthSectionRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 18px;
+}
+.fourthSectionRight p {
+  color: #fffffc85;
+}
+.fourthSectionRight p span {
+  color: var(--white-color);
+}
+.fourthSectionRight > span {
+  margin-top: 16px;
+  color: var(--primary-color);
+}
+
+.fifthSectionContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.fifthSectionLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 18px;
+}
+.fifthSectionLeft p {
+  color: #fffffc85;
+}
+.fifthSectionLeft p span {
+  color: var(--white-color);
+}
+.fifthSectionLeft > span {
+  margin-top: 16px;
+  color: var(--primary-color);
+}
+.fifthSectionRight {
+  overflow: hidden;
+}
+.fifthSectionRight img {
+  object-fit: contain;
+  max-height: 540px;
+  border-radius: 4px;
+}
+
+.testimonialSection{
+  width: 100%;
+}
+
+.testimonialSection h2 {
+  color: var(--white-color);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.testimonialSectionCardsContainer {
+  display: grid;
+  padding: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: sans-serif;
+  gap: 0.5rem;
+}
+
+.testimonialCard {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+
+.testimonialImage {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 4px;
+}
+.testimonialCardDetails {
+  margin-top: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.testimonialCardDetails div p:last-child {
+  color: #fffffc85;
+  margin-top: 2px;
 }
