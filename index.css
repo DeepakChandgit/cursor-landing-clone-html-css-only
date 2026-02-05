@@ -1,0 +1,130 @@
+@import url(./assets/CursorGothic-main/cursor-gothic.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+:root {
+  --black-color: #14120b;
+  --primary-color: #f54e00;
+  --white-color: rgb(237, 236, 236);
+}
+body {
+  background-color: var(--black-color);
+  font-family:
+    CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  overflow-y: scroll;
+}
+header {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 52px;
+  padding: 0 19px;
+  color: rgb(237, 236, 236);
+}
+.navLogo {
+  height: 22px;
+}
+.logoContainer {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.logoName {
+  height: 11.5px;
+}
+.navbar {
+  position: absolute;
+  left: 37.5%;
+}
+.navigationMenu {
+  display: flex;
+  gap: 29px;
+}
+.navLinks {
+  letter-spacing: normal;
+  font-size: 14px;
+  padding: 6.2px 0;
+}
+.navActionBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 2px;
+  text-align: center;
+}
+#navSignInBtn {
+  border: 1px solid rgba(237, 236, 236, 0.2);
+  border-radius: 20px;
+  color: rgb(237, 236, 236);
+  font-size: 14px;
+  background-color: var(--black-color);
+  line-height: 14px;
+  padding: 5.8px 11.5px;
+}
+#navDownloadBtn {
+  border: 1px solid #edecec;
+  border-radius: 20px;
+  line-height: 14px;
+  font-size: 14px;
+  background-color: rgb(237, 236, 236);
+  padding: 5.8px 11.5px;
+}
+.heroSection {
+  padding: 112px 20px 67.2px 20px;
+}
+
+.heroParagraph {
+  font-size: 26px;
+  color: rgb(237, 236, 236);
+  line-height: 32px;
+  margin-bottom: 22.4px;
+}
+.heroActionBtn {
+  display: flex;
+  align-items: center;
+  padding: 11px 22px 11px 22px;
+  width: fit-content;
+  border: 0.781px solid rgb(215, 214, 213);
+  border-radius: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: 0.2px;
+  letter-spacing: -1px;
+  font-size: 16px;
+  background-color: var(--white-color);
+}
+
+.heroActionBtnIcon {
+  width: 18px;
+  margin-left: 2px;
+  padding-top: 1px;
+}
+.heroSecondContainer {
+  position: relative;
+  margin: 0 auto;
+  height: 680px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.heroFirstContainer{
+  margin-bottom: 65px;
+}
+.heroSecondContainer .backgroundImage {
+  position: absolute;
+  width: 100%;
+}

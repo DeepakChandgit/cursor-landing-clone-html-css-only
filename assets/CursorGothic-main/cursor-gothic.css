@@ -1,0 +1,21 @@
+@font-face {
+    font-family: CursorGothic;
+    src: url('./fonts/CursorGothic-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: CursorGothic;
+    src: url('./fonts/CursorGothic-Italic.woff2') format('woff2');
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: CursorGothic;
+    src: url('./fonts/CursorGothic-Bold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 700;
+    font-style: bold;
+}
