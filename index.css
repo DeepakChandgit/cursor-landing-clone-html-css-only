@@ -129,7 +129,7 @@ section {
   border: 1px solid rgba(255, 252, 252, 0.052);
   border-radius: 4px;
   padding: 16px;
-  margin: 0 auto;
+
   width: 97%;
 }
 .heroSection {
@@ -370,6 +370,7 @@ section {
 .joinUsSection {
   display: flex;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 .joinUsSectionLeft {
   display: grid;
@@ -506,11 +507,16 @@ footer {
 .bottomSecondContainer {
   display: flex;
   gap: 1.5rem;
+
 }
 
 .bottomSecondContainerLeft,
 .bottomSecondContainerRight {
-  padding: 0.2rem 2rem;
-  border-radius: 1rem;
+  font-size: 1rem;
+  padding:  .2rem 2rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-radius: 2rem;
   color: var(--white-color);
 }
